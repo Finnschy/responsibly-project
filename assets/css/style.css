@@ -75,11 +75,16 @@ h1 {
 
 .struggle {
     border-bottom: 1px solid #ccc;
+    padding-bottom: 80px;
 }
 
-.struggle h2{
+h2{
     margin-left: 200px;
     margin-top: 50px;
+}
+
+#resources {
+    margin-bottom: 100px;
 }
 
 .struggle p {
@@ -90,11 +95,63 @@ h1 {
 .struggle article {
     width: 65%;
     margin: 0px auto;
-    margin-bottom: 60px;
+
 }
 
 .struggle article img {
     width: 30%;
     margin-left: 2.5%;
-    margin-bottom: 2%;
+    margin-bottom: 1.5%;
+}
+
+.resources {
+    width: 56.5%;
+}
+
+.left {
+    margin-bottom: 100px;
+    margin-left: 260px;
+}
+
+.right {
+    margin-left: 500px;
+    margin-bottom: 100px;
+}
+
+.img {
+    height: 450px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.focus {
+    background-image: url(../img/focus-01.png);
+}
+
+.sleep {
+    background-image: url(../img/sleep-video-02.png);
+}
+
+.sleep2 {
+    background-image: url(../img/sleep-article-03-p-1080.png);
+}
+
+.focus2 {
+    background-image: url(../img/focus-video-01-p-1080.png);
+}
+
+.caption {
+    font-size: .8rem;
+    color: #666;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+section:nth-of-type(4) {
+    border-bottom: 1px solid #ccc;
 }

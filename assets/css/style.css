@@ -9,7 +9,7 @@ farbe text: #659d89, #333, #666, #000 */
 
 body {
     margin: 0;
-    background: #ccc;
+    background: #eee;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -38,18 +38,41 @@ h1 {
     margin-bottom: -40px;
 }
 
+.header {
+    width: 60%;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+
 .header p {
     font-size: 3.5rem;
     width: 80%;
 }
 
-
-.header {
-    width: 60%;
-    margin-left: 200px;
-}
-
 .fas , .fa-arrow-down {
     font-size: 20px;
     margin-right: 20px;
+}
+
+.icon {
+    margin-left: 200px;
+
+}
+
+#social-media {
+    list-style: none;
+    padding: 0px;
+    text-align: right;
+    width: 90%;
+    line-height: 40px;
+
+}
+
+#social {
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 70px;
+}
+
+.struggle {
+    margin: 80px 0 0 200px;
 }

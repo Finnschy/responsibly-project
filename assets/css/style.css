@@ -31,3 +31,25 @@ nav a {
     color: #659d89;
 
 }
+
+h1 {
+    color: #659d89;
+    font-size: 4rem;
+    margin-bottom: -40px;
+}
+
+.header p {
+    font-size: 3.5rem;
+    width: 80%;
+}
+
+
+.header {
+    width: 60%;
+    margin-left: 200px;
+}
+
+.fas , .fa-arrow-down {
+    font-size: 20px;
+    margin-right: 20px;
+}
